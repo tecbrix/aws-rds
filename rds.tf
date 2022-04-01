@@ -1,7 +1,4 @@
 resource "aws_db_instance" "default" {
-  depends_on = [
-    module.vpc
-  ]
   allocated_storage      = var.allocated_storage
   engine                 = var.engine
   engine_version         = var.engine_version
