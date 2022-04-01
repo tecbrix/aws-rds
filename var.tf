@@ -18,6 +18,9 @@ variable "password" {
 variable "allocated_storage" {
      default = 10
  }
+variable "vpc_id" {
+     default = "will be apply"
+ }
 variable "engine" {
      default = "mysql"
  }
