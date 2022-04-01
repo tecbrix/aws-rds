@@ -1,7 +1,7 @@
 resource aws_security_group "mysql" {
   name        = "${var.name}-DBSG"
   description = "managed by terrafrom for db servers"
-  vpc_id      = var.vpc.id
+  vpc_id      = var.vpc_id
 
   tags = {
     Name = "${var.name}-DBSG"
