@@ -5,7 +5,7 @@ variable "env" {
     default = "test"
 }
 variable "name" {
-    default = "wordpress-test"
+    default = "testdb"
 }
  variable "username" {
      default = "tecadmin"
